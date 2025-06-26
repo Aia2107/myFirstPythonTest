@@ -1,8 +1,8 @@
-score = int(input("Enter your score: "))
+exam_score = int(input("Enter your exam_score: "))
 
-if score == 90:
+if exam_score == 90:
     print("Excellent!")
-elif score >= 80 or score < 90:
+elif exam_score > 80 and exam_score < 90:
     print("Good!")
-elif score <= 70:
-    print("Need Improvement!")
+else:
+    print("You need to work harder!")
