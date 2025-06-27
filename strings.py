@@ -84,4 +84,4 @@ last_names = ["Doe", "Smith", "Johnson", "Brown"]
 import random
 random_first_name = random.choice(first_names)
 random_last_name = random.choice(last_names)
-print(f"Random Name: {random_first_name} {random_last_name}")  # e.g., 'Random Name: Alice Johnson'
+print
